@@ -13,7 +13,7 @@ Ans: First I will select the parent element where I will insert the new element 
       **
         const parent = document.getElementById("id");
         const newDiv = document.createElement("div");
-          div.innerHTML=`
+          newDiv.innerHTML=`
                 <div>
                     <h2>Hi! I am new div</h2>
                 </div>
