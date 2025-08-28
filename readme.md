@@ -5,13 +5,14 @@ Ans: **getElementById** is used to grab a single element,
       **querySelector** is used to grab the first element of the selector. For example, we have multiple same **tag**, we used a **class name** in multiple element. The **querySelector** will only grab the 1st element of the selector we used where the **querySelectorAll** grabs all the elements of the selector and we can also use loop in it.
 2. How do you **create and insert a new element into the DOM**?<br>  
 
-Ans: First I will select the parent element where I will insert the new element:
-      **const parent = document.getElementById("id")**
-      Then I will creat and insert the element exactly like bellow:
+Ans: First I will select the parent element where I will insert the new element and then I will create and insert the element exactly like bellow:
+      
+      
 
 
       **
-        const newDiv = document.createElement("div")
+        const parent = document.getElementById("id");
+        const newDiv = document.createElement("div");
           div.innerHTML=`
                 <div>
                     <h2>Hi! I am new div</h2>
