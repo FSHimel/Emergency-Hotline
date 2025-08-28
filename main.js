@@ -339,7 +339,7 @@ addEventListener("click", function(e){
 // heart section 
 
 const hearts = document.getElementsByClassName("heart")
-console.log(hearts)
+
 for(let i=0; i<hearts.length; i++){
         hearts[i].addEventListener("click", function(){
         const heartCount = parseInt(document.getElementById("heart-count").innerText);
@@ -349,5 +349,130 @@ for(let i=0; i<hearts.length; i++){
     })
 }
 
+// copy button and its functionalities
 
+document.getElementById("copy-1").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
 
+    // number copy to clipbord 
+    const number =document.getElementById("number-1").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-2").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-2").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-3").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-3").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-4").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-4").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-5").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-5").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-6").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-6").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-7").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-7").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-8").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-8").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+document.getElementById("copy-9").
+addEventListener("click", function(){
+    const copyCount = parseInt(document.getElementById("copy-count").innerText);
+    const finalCopyCount = copyCount + 1;
+    document.getElementById("copy-count").
+    innerText = finalCopyCount;
+
+    // number copy to clipbord 
+    const number =document.getElementById("number-9").innerText;
+    navigator.clipboard.writeText(number);
+    alert("Number copied to clipboard!!")
+    
+})
+
+// clear call history 
+
+document.getElementById("clear-btn").
+addEventListener("click", function(e){
+    e.preventDefault();
+    document.getElementById("call-history-container").innerHTML = "";
+})
