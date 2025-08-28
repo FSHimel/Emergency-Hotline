@@ -8,7 +8,7 @@ addEventListener("click", function(e){
     const number =document.getElementById("number-1").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -45,7 +45,7 @@ addEventListener("click", function(e){
     const number = document.getElementById("number-2").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -82,7 +82,7 @@ addEventListener("click", function(e){
     const number = document.getElementById("number-3").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -119,7 +119,7 @@ addEventListener("click", function(e){
     const number = document.getElementById("number-4").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -156,7 +156,7 @@ addEventListener("click", function(e){
     const number =document.getElementById("number-5").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -193,7 +193,7 @@ addEventListener("click", function(e){
     const number = document.getElementById("number-6").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -230,7 +230,7 @@ addEventListener("click", function(e){
     const number =document.getElementById("number-7").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -267,7 +267,7 @@ addEventListener("click", function(e){
     const number = document.getElementById("number-8").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -304,7 +304,7 @@ addEventListener("click", function(e){
     const number =document.getElementById("number-9").innerText
     const coins = parseInt(document.getElementById("coins").innerText);
     if(coins < 20){
-        alert("You don't have enough coins to make this call")
+        alert("❌You don't have enough coins to make this call")
     }
     else{
         const totalAvailableCoins = coins - 20;
@@ -475,4 +475,5 @@ document.getElementById("clear-btn").
 addEventListener("click", function(e){
     e.preventDefault();
     document.getElementById("call-history-container").innerHTML = "";
+    alert("History Cleared ✅")
 })
