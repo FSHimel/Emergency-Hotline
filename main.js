@@ -25,7 +25,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="md:max-w-[407px] bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px]">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -62,7 +62,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="md:max-w-[407px] bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px]">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -99,7 +99,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -136,7 +136,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -173,7 +173,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -210,7 +210,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -247,7 +247,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -284,7 +284,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
@@ -321,7 +321,7 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[352px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
                 <div>
                     <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
                     <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
