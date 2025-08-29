@@ -14,7 +14,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -25,12 +25,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="md:max-w-[407px] bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -51,7 +51,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -62,12 +62,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="md:max-w-[407px] bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px]">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -88,7 +88,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -99,12 +99,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -125,7 +125,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -136,12 +136,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -162,7 +162,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -173,12 +173,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -199,7 +199,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -210,12 +210,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -236,7 +236,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -247,12 +247,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -273,7 +273,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -284,12 +284,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
@@ -310,7 +310,7 @@ addEventListener("click", function(e){
         const totalAvailableCoins = coins - 20;
         document.getElementById("coins").
         innerText = totalAvailableCoins;
-        alert("📞 Calling "+name+ "  " +":" +"  " + number+"...");
+        alert("📞Calling "+name+ "  " +":" +"  " + number+"...");
 
         const data = {
             Name: name,
@@ -321,12 +321,12 @@ addEventListener("click", function(e){
 
         const div = document.createElement("div")
         div.innerHTML=`
-            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[16px] md:max-w-[407px] ">
+            <div class="bg-[#fafafa] rounded-[8px] flex justify-between items-center mt-[8px] p-[10px]">
                 <div>
-                    <h2 class="text-[18px] font-semibold hind-madurai">${data.Name}</h2>
-                    <p class="text-[18px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
+                    <h2 class="text-[12px] font-semibold hind-madurai">${data.Name}</h2>
+                    <p class="text-[12px] font-normal hind-madurai text-[#5c5c5c]">${data.Number}</p>
                 </div>
-                <p class="text-[18px] font-normal">${data.Date}</p>
+                <p class="text-[12px] font-normal">${data.Date}</p>
             </div>
     `
     callHistoryContainer.appendChild(div);
